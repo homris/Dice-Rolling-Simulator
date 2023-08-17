@@ -7,7 +7,7 @@ def main():
     dice1 = random.choice(nums)
     dice2 = random.choice(nums)
     print(str(dice1) + " : " + str(dice2))
-    os.execl(sys.executable, sys.executable, *sys.argv) #restarts the program
+    os.execl(sys.executable, sys.executable, *sys.argv) #restarts the program (optional)
 
 
 main()
